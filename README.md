@@ -46,10 +46,10 @@ sudo python3 security_checker_v3.py -o ./reports
 ## 📁 报告文件
 ```
 reports/
-├── security_audit_20251205_143022.json
-├── security_audit_20251205_143022.html
-├── security_audit_20251205_143022.txt
-└── security_audit_20251205_143022.csv
+├── security_audit_YYYYMMDD_HHMMSS.json
+├── security_audit_YYYYMMDD_HHMMSS.html
+├── security_audit_YYYYMMDD_HHMMSS.txt
+└── security_audit_YYYYMMDD_HHMMSS.csv
 ```
 
 ## ⚡ 常用命令
@@ -81,7 +81,3 @@ python3 security_checker_v3.py --version
 2. 生产环境先测试再修复
 3. 完整检查约需5-10分钟
 4. 修复前备份重要配置文件
-
----
-
-**一句话说明**: 全面、专业的Linux系统安全检查工具，支持多标准合规审计，一键生成修复建议。
